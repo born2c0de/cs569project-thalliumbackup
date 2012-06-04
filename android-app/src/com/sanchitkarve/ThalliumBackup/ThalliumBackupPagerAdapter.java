@@ -421,6 +421,10 @@ boolean doIt = false;
 			// TODO Auto-generated method stub
 			SharedPreferences.Editor ed = mContext.getSharedPreferences(PREF_NAME, 0).edit();
 			ed.putString(PREF_AUTHTOKEN, "");
+			ed.putString(PREF_LOGGEDINEMAIL, "");
+			ed.putString(PREF_CURRENTDEVICEPROFILEID, "");
+			ed.putInt(PREF_TOTALDEVICEPROFILES, 0);
+			ed.commit();
 			isLoggedIn = false;
 			ViewPager x = (ViewPager)mContext.findViewById(R.id.pager);
 			x.getAdapter().notifyDataSetChanged();
