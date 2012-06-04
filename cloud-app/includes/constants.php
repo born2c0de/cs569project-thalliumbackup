@@ -1,0 +1,9 @@
+<?php
+define("APP_VERSION","0.1.0");
+define("DB_HOST","ENTER HOST");
+define("DB_USERNAME","ENTER USERNAME");
+define("DB_PASSWORD","ENTER PASSWORD");
+define("DB_DBNAME","ENTER DB NAME");
+define("S3_BUCKET_OR","ENTER BUCKET NAME");
+
+?>
